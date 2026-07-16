@@ -10,7 +10,7 @@ https://github.com/user-attachments/assets/d5d92d5d-d5f4-4cf0-a71d-5247b65bd8db
 
 开发环境：本地VSCode + Remote-Tunnels插件，远程连接Kaggle Notebook。
 
-连接方案：可采用cloudflared隧道方案，或VSCode官方Remote Tunnels方案。
+连接方案：可采用VSCode官方Remote Tunnels方案。
 
 软件依赖：LingBot-Map的官方环境要求。
 
@@ -22,7 +22,7 @@ PyTorch 2.8.0
 
 
 
-![Uploading 截屏2025-04-06 17.36.19.png…]()
+
 
 
 
