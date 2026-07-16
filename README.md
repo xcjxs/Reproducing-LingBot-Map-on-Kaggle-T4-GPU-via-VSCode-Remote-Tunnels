@@ -14,7 +14,7 @@ https://github.com/user-attachments/assets/d5d92d5d-d5f4-4cf0-a71d-5247b65bd8db
 
 软件依赖：LingBot-Map的官方环境要求。
 
-Python 3.12.8
+Python 3.12.8（实验性，可兼容）
 
 PyTorch 2.8.0
 
@@ -22,6 +22,7 @@ PyTorch 2.8.0
 
 
 
+![Uploading 截屏2025-04-06 17.36.19.png…]()
 
 
 
