@@ -108,9 +108,11 @@ python demo.py \
 
 
 进入lingbot-map目录
+
 wget -q https://github.com/cloudflare/cloudflared/releases/latest/download/cloudflared-linux-amd64
 
 #添加权限
+
 chmod +x cloudflared-linux-amd64
 
 
