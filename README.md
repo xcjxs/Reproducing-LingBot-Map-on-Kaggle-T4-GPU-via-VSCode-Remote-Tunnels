@@ -6,6 +6,16 @@
 https://github.com/user-attachments/assets/d5d92d5d-d5f4-4cf0-a71d-5247b65bd8db
 
 
+
+
+
+原视频
+
+https://github.com/user-attachments/assets/4181e4d9-f877-4b4a-a66f-6c094b3a9bae
+
+
+
+
 硬件：Kaggle T4 GPU。
 
 开发环境：本地VSCode + Remote-Tunnels插件，远程连接Kaggle Notebook。
