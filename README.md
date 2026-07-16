@@ -18,7 +18,6 @@ Python 3.12.8（实验性，可兼容）
 
 PyTorch 2.8.0
 
-其他依赖见 requirements.txt
 
 
 
