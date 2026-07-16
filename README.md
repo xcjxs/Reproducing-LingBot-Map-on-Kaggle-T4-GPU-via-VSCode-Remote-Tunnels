@@ -56,6 +56,8 @@ subprocess.run("./code tunnel --accept-server-license-terms", shell=True)
 
 apt-get install -y ffmpeg libsm6 libxext6
 pip install torch==2.8.0 torchvision==0.23.0 --index-url https://download.pytorch.org/whl/cu128
+
+
 pip install onnxruntime-gpu
 pip install --index-url https://pypi.org/simple flashinfer-python#可以不安装，因为t4可能不支持，会出现报错
 
