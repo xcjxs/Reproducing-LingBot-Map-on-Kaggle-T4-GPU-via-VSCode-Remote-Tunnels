@@ -43,30 +43,6 @@ print("正在启动 Remote Tunnels, 请稍候...")
 subprocess.run("./code tunnel --accept-server-license-terms", shell=True)
 ```
 
-import subprocess
-
-import os
-
-if not os.path.exists('code'):
-
-    print("正在下载 VS Code CLI...")
-    
-    subprocess.run("curl -Lk 'https://code.visualstudio.com/sha/download?build=stable&os=cli-alpine-x64' --output vscode_cli.tar.gz", shell=True)
-    
-    subprocess.run("tar -xf vscode_cli.tar.gz", shell=True)
-    
-    subprocess.run("rm vscode_cli.tar.gz", shell=True)
-    
-    print("下载完成。")
-    
-print("正在启动 Remote Tunnels，请稍候...")
-
-subprocess.run("./code tunnel --accept-server-license-terms", shell=True)
-
-
-
-
-
 执行后会输出To grant access to the server, please log into https://github.com/login/device and use code xxxx-xxxx
 点击https://github.com/login/device链接输入代号 xxxx-xxxx
 
@@ -77,8 +53,11 @@ subprocess.run("./code tunnel --accept-server-license-terms", shell=True)
 
 接着打开vscode终端就可以开始搭建环境了
 
-
+```python
 apt-get install -y ffmpeg libsm6 libxext6
+```
+
+
 pip install torch==2.8.0 torchvision==0.23.0 --index-url https://download.pytorch.org/whl/cu128
 
 
