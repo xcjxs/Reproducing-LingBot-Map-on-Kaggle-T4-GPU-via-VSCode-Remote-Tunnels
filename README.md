@@ -87,10 +87,13 @@ pip install -e ".[vis]”安装可视化依赖
 
 
 运行推理脚本
+
 python demo.py \
     --model_path path/to/your.pt \
     --video_path path/to/your video \
     --use_sdpa
+
+
 
 
 成功执行完后应该会有网址，但是这个网址由于kaggle的限制是打不开的
