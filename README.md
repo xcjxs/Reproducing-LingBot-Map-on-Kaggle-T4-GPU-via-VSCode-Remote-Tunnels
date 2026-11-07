@@ -120,9 +120,7 @@ cd lingbot-map
 #创建checkpoints并下载权重文件
 
 ```python
-from kaggle_secrets import UserSecretsClient
-import subprocess
-user_secrets = UserSecretsClient()
+
 mkdir checkpoints
 wget -O checkpoints/lingbot-map.pt https://huggingface.co/robbyant/lingbot-map/resolve/main/lingbot-map.pt
 ```
